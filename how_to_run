@@ -1,0 +1,1 @@
+docker run -d --name my_apache_with_php -p 80:80 -v /var/www/localhost/htdocs:/var/www/localhost/htdocs turkeryildirim/apache
